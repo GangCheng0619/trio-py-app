@@ -23,7 +23,7 @@ cffi==1.14.6
     # via cryptography
 click==8.0.1
     # via black
-coverage==5.5
+coverage[toml]==5.5
     # via pytest-cov
 cryptography==3.4.8
     # via
@@ -104,7 +104,7 @@ pytest==6.2.5
     # via
     #   -r test-requirements.in
     #   pytest-cov
-pytest-cov==2.12.1
+pytest-cov==3.0.0
     # via -r test-requirements.in
 regex==2021.8.28
     # via black
@@ -116,10 +116,10 @@ sortedcontainers==2.4.0
     # via -r test-requirements.in
 toml==0.10.2
     # via
+    #   coverage
     #   mypy
     #   pylint
     #   pytest
-    #   pytest-cov
 tomli==1.2.1
     # via black
 traitlets==5.1.0
